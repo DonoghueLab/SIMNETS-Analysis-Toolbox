@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config
+    Name="LLVM Clang++ OpenMP"
+    ShortName="Clang++ OpenMP"
+    Manufacturer="LLVM"
+    Version=""
+    Language="C++"
+    Priority="A"
+    Location="/usr/local/opt/llvm" >
+    <Details
+    CompilerExecutable="$CXX"
+    CompilerDefines="$DEFINES"
+    CompilerFlags="$CXXFLAGS"
+    OptimizationFlags="$CXXOPTIMFLAGS"
+    DebugFlags="$CXXDEBUGFLAGS"
+    IncludeFlags="$INCLUDE"
+    LinkerLibraries="$LINKLIBS"
+    LinkerOptimizationFlags="$LDOPTIMFLAGS"
+    LinkerDebugFlags="$LDDEBUGFLAGS"
+
+    CompilerDefineFormatter="-D%s"
+    LinkerLibrarySwitchFormatter="-l%s"
+    LinkerPathFormatter="-L%s"
+    />
+    <vars
+    CMDLINE100="$CXX -c $DEFINES $INCLUDE $CXXFLAGS $OPTIM $SRC -o $OBJ"
+    CMDLINE200="$LDXX $LDFLAGS $LINKOPTIM $LINKEXPORT $OBJS $CXXLIBS $LINKLIBS -o $EXE"
+
+    CXX="/usr/local/opt/llvm/bin/clang++"
+    DEFINES="$MATLABMEX"
+    MATLABMEX="-DMATLAB_MEX_FILE "
+    CXXFLAGS="-fno-common -arch x86_64 -fexceptions -fobjc-arc -std=c++11 -stdlib=libc++ -fopenmp -Wall -I/usr/local/opt/llvm/include"
+    INCLUDE="-I&quot;$MATLABROOT/extern/include&quot; -I&quot;$MATLABROOT/simulink/include&quot;"
+    CXXOPTIMFLAGS="-O3 -fwrapv -DNDEBUG"
+    CXXDEBUGFLAGS="-g"
+
+    LDXX="$CXX"
+    LDFLAGS="-Wl,-twolevel_namespace -undefined error -arch x86_64 -Wl $LDBUNDLE $LINKEXPORT -stdlib=libc++ -L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib -fopenmp"
+    LDBUNDLE="-bundle "
+    LINKEXPORT="-Wl,-exported_symbols_list,&quot;$MATLABROOT/extern/lib/maci64/mexFunction.map&quot;"
+    LINKLIBS="-L&quot;$MATLABROOT/bin/maci64&quot; -lmx -lmex -lmat"
+    LDOPTIMFLAGS="-O"
+    LDDEBUGFLAGS="-g"
+
+    OBJEXT=".o"
+    LDEXT=".mexmaci64"
+    />
+    <client>
+        <engine
+        LINKLIBS="$LINKLIBS -leng"
+        LDBUNDLE=""
+        LINKEXPORT=""
+        LDEXT=""
+        />
+
+        <mbuild
+        CMDLINE150="$MATLABROOT/bin/maci64/macbundle $EXENAME &quot;$EXEDIR&quot;"
+        CMDLINE200="$LDXX $LDFLAGS $OBJS $LINKOPTIM $LINKEXPORT $CXXLIBS $LINKLIBS -o &quot;$EXEDIR$EXENAME.app/Contents/MacOS/$EXENAME&quot;"
+
+        CXXFLAGS="-fexceptions -fno-common -arch x86_64 -std=c++11 -stdlib=libc++ -fopenmp -Wall -I/usr/local/opt/llvm/include"
+        DEFINES="-DUNIX -DX11 -DMACI64"
+        LDFLAGS="-arch x86_64 -Wl,-syslibroot $LDTYPE $LINKEXPORT -bind_at_load -stdlib=libc++ -L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib -fopenmp"
+        LINKLIBS="-L&quot;$MATLABROOT/runtime/maci64&quot; -lmwmclmcrrt"
+        INCLUDE="-I&quot;$MATLABROOT/extern/include&quot; -I&quot;$MATLABROOT/extern/include/cpp&quot;"
+        MATLABMEX=""
+        LDEXT=""
+        LINKEXPORT=""
+        LDTYPE=""
+        />
+
+    </client>
+    <locationFinder>
+    <COMPILER_LOCATION>
+      <and>
+        <dirExists name="/usr/local/opt/llvm" />
+        <fileExists name="/usr/local/opt/llvm/bin/clang++" />
+      </and>
+    </COMPILER_LOCATION>
+    </locationFinder>
+</config>
