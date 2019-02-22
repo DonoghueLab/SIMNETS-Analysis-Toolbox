@@ -9,6 +9,12 @@ David Brandman
 
 Donoghue Lab, Brown University, 2012-2019.
 
+The purpose of this toolbox is to generate dimensionality-reduced data spike train similarity (SSIM) maps and Neuron Similarity Maps from spike trains, facilitating visualization and further analysis. The toolbox integrates two algorithms to achieve this:
+* spike train distance metric described by Victor and Purpura (1996)
+* t-Distributed Stochastic Neighbor Embedding (tSNE) (Van der Maaten and Hinton 2008).
+
+
+
 1. SIMNETS Live Matlab Tutorial Overview
 How to use this tutorial: This live matlab script is part of the Spike train Similarity Space (SSIMS) and Similarty Network (SIMNETS) neural analysis tool-box. It's purpose is to provide the user with a 'how-to-guide' in running the main SIMNETS function (SSIMNETS.m) and to the illustrate the various operations performed by its sub-functions. Certain features of this tutorial will work best with Matlab Version >= R2018.  When analyzing your own data, we reccommend using the 'SSIMNETS.m' function (rather than this Live Tutorial Script) for increased speed. This following sections of this tutorial will cover: 1) SIMNETS Inputs, 2) Running SIMNETS, 3) SIMNETS Outputs, and 4) looking under-the-hood of SIMNETS. 
 Getting Started: This code requires the 'SSIMS & SIMNETS toolbox' + the helper functions. The toolbox is completely implemented in MATLAB. To get started, just add the sub-folders `for_MATLAB` and 'demo' and 'matlab helpers' to your MATLAB path. However, as certain basic MATLAB functions are rather slow, the core functionality has also been implemented in C/C++ and can be compiled as `mex` files.  The C/C++  optimized version of the tool box will improve performance dramatically (2 orders of magnitude faster). Setting up the compilier environment will take about 10-15 minutes, but this is time saved down-the-line.See doc\INSTALL.md for instructions on installing the c++ optimzed version of the toolbox for your specific OS. 
