@@ -19,7 +19,7 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
 ### Quick-Guide ###
 
     1. Add the sub-folder `for_MATLAB` to your MATLAB path 
-    2. (optional) installation of compiled code for increased performance (see below)
+    2. (optional) installation of compiled code for increased performance (see 'install.md' below)
     3. Use 'runSIMNETS.m' to analyze your own data (See 'SIMNETS_Live_tutorial.mlx' for guide)
     3. (optional) see the SIMNETS_live_tutorial for explanation of algorithm. 
   
