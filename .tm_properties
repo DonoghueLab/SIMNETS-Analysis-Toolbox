@@ -1,0 +1,25 @@
+projectDirectory = "$CWD"
+windowTitle      = "$TM_DISPLAYNAME — SSIMS Toolbox ${TM_DIRECTORY/${CWD}//g}  (git: $TM_SCM_BRANCH)"
+excludeInFileChooser = "{$exclude,*.mex*,*.mat}"
+
+excludeInBrowser = "{*.m~,.tm_properties,$excludeInBrowser}"
+TM_ORGANIZATION = 'Donoghue Lab, Neuroscience Department, Brown University, Providence, RI'
+
+[ source.matlab ]
+softTabs = true
+tabSize = 4
+showInvisibles = true
+
+[ source.c; source.c++ ]
+softTabs = false
+tabSize = 4
+showInvisibles = true
+
+[ "Makefile" ]
+softTabs = false
+tabSize = 4
+showInvisibles = true
+
+
+[ attr.untitled ]
+fileType = source.matlab
