@@ -24,7 +24,7 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
     3. (optional) see the SIMNETS_live_tutorial for explanation of algorithm. 
   
 The toolbox is completely implemented in MATLAB. To get started, just add the sub-folder `for_MATLAB` to your MATLAB path. However, certain basic MATLAB functions are rather slow. 
-Therefore, core functionality has ALSO been implemented in C/C++ and can be compiled as `mex` files. This will improve performance dramatically (~2 orders of magnitude). See compilation instructions for your platform below.
+Therefore, core functionality has ALSO been implemented in C/C++ and can be compiled as `mex` files. This will improve performance dramatically (~2 orders of magnitude). 
                                                         --------------------------------------------------------------------------------------------------
 
 ## Cite ##
