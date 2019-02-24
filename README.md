@@ -16,7 +16,7 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
 
 5. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
-<img src="images/SIMNETS AND SSIMS-02.png" alt="Ensemble Spike Train Similarity Map" class="inline"/>
+<img src="images/SIMNETS AND SSIMS-02.png" alt="Fig 2. SSIMS" class="inline"/>
 
 6. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab Github Repository](https://donoghuelab.github.io/SSIMS-and-SIMNETS-Analysis-Toolbox/) 
 
