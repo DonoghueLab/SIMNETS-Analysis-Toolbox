@@ -12,11 +12,11 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
 
 3. Open **SIMNETS_Live_tutorial.mlx'** in Matlab: for detailed guidance on how to use SIMNETS (dim-reduced Neuron Similarity Map) and all of its sub-functions with two different demo datasets.  
 
-![SSIMNETS dimensionality-reduced Neuron Similarity Map](img style="float: right;" https://github.com/DonoghueLab/SSIMS-and-SIMNETS-Analysis-Toolbox/blob/master/images/SIMNETS AND SSIMS-01.png) 
+![SSIMNETS dimensionality-reduced Neuron Similarity Map](https://github.com/DonoghueLab/SSIMS-and-SIMNETS-Analysis-Toolbox/blob/master/images/SIMNETS AND SSIMS-01.png) 
 
 4. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
-![SSIMS dimensionality-reduced Ensemble Spike Train Similarity Map](img style="float: right;" https://github.com/DonoghueLab/SSIMS-and-SIMNETS-Analysis-Toolbox/blob/master/images/SIMNETS AND SSIMS-02.png)
+![SSIMS dimensionality-reduced Ensemble Spike Train Similarity Map](https://github.com/DonoghueLab/SSIMS-and-SIMNETS-Analysis-Toolbox/blob/master/images/SIMNETS AND SSIMS-02.png)
 
 5. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab Github Repository](https://donoghuelab.github.io/SSIMS-and-SIMNETS-Analysis-Toolbox/) 
 
