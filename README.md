@@ -62,12 +62,6 @@ This toolbox integrates two algorithms to achieve the dimensionality-reduced Sim
     First public release.
 
 
-References
-----------
-[1] SSIMS and SIMNETS Neural Analysis Toolbox software DOI (to be added)
-[2] Jacqueline Hynes, David Brandman,  Jonas Zimmerman, John Donoghue, Carlos Vargas-Irwin (2018). **"SIMNETS: a computationally efficient and scalable framework for identifying networks of functionally similar neurons"** . [DOI:https://doi.org/10.1101/463364](https://doi.org/10.1101/463364)       
-[3] Vargas-Irwin, C. E., Brandman, D. M., Zimmermann, J. B., Donoghue, J. P., & Black, M. J. (2015).  **Spike Train SIMilarity Space (SSIMS): A Framework for Single Neuron and Ensemble Data Analysis** 
-
 
 ## QUESTIONS: 
 @author Jacqueline Hynes. Copyright (c) Jacqueline Hynes, Brown University. All rights reserved.
