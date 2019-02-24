@@ -37,7 +37,7 @@ please cite the DOI for the SIMNETS paper and the DOI for the Software Repositor
 
 
 #### Version history ####
----------------
+------------------------
 
 *   4.0.0  22 Feb 2019 . @JHynes
   Added the SIMNETS neural analysis tool and updated build instructions. 
