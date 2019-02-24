@@ -7,7 +7,7 @@
 
 2. Add toolbox to your MATLAB path.
 
-3. *Optional Installation* of complied version. For significantly(!) increased performance see 'install.md'. 
+3. **Optional Installation** of complied version. For significantly(!) increased performance see 'install.md'. 
 
 3. For guidance on using SIMNETS (the dimensionality-reduced Neuron Similarity Map): see **demo/SIMNETS_Live_tutorial.mlx'** for detailed guide on running the SIMNETS function and an explanation of all the sub-functions used in the algoirithm. 
 
