@@ -4,7 +4,7 @@
 ### Quick-Guide ####
 The purpose of this toolbox is to generate dimensionality-reduced spike train similarity (SSIM) maps and Neuron Similarity (SIMNET) Maps from spike train data, facilitating visualization and further analysis. The toolbox integrates two algorithms to achieve this: 1) spike train distance metric described by Victor and Purpura (1996); 2) t-Distributed Stochastic Neighbor Embedding (tSNE) (Van der Maaten and Hinton 2008). To get started: 
 
-1. Download the tool box from Github. 
+1. Download the tool box from Github: https://github.com/DonoghueLab/SIMNETS 
 
 2. Add toolbox to your MATLAB path.
 
@@ -14,7 +14,7 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
 
 4. See **SSIMS_democenter_out.m:** for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
-5. For more details on both these methods, see publications [2] and [3]. 
+5. For more details on both methods, see publications [2] and [3] or our webpage:https://donoghuelab.github.io/SIMNETS/ 
 
 
 #### INSTALLATION: ####
