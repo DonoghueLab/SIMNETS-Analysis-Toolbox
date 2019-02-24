@@ -12,7 +12,7 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
 
 2. Add toolbox to your MATLAB path.
 
-3. **Optional, but reccommended** Installation of complied Matlab code for significantly(!) increased performance see 'install.md'. 
+3. **Optional, but recommended** Installation of complied Matlab code for significantly(!) increased performance see 'install.md'. 
 
 4. Open **SIMNETS_Live_tutorial.mlx'** in Matlab: for detailed guidance on how to use SIMNETS (dim-reduced Neuron Similarity Map) and all of its sub-functions with two different demo datasets. 
 
