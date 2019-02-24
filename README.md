@@ -44,7 +44,7 @@ This toolbox integrates two algorithms to achieve the dimensionality-reduced Sim
 ------------------------
 
 *   4.0.0  22 Feb 2019 . @JBHynes
-  Added the SIMNETS neural analysis toolbix and updated build/install instructions. 
+  Added the SIMNETS neural analysis toolbox and updated build/install instructions. 
 *   3.0.10: 3 November 2016
   Add build instructions for macOS 12 and MATLAB 2016b
 *   3.0.9:  15 September 2016
