@@ -14,8 +14,9 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
 
 4. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
-5. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab Github Repository](https://donoghuelab.github.io/SIMNETS/) 
+5. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab Github Repository](https://donoghuelab.github.io/SSIMS-and-SIMNETS-Analysis-Toolbox/) 
 
+![SSIMNETS-and-SSIMS dimensionality-reduced Similarity Maps](https://github.com/DonoghueLab/SSIMS-and-SIMNETS-Analysis-Toolbox/blob/master/Images/SIMNETS_SSIMS_image-01.png)
 
 #### INSTALLATION OF C/C++ OPTIMIZED MATLAB VERSION OF TOOLBOX (optional): ####
 The toolbox is completely implemented in MATLAB. To get started, just add the sub-folder `for_MATLAB` to your MATLAB path. However, certain basic MATLAB functions are rather slow. Therefore, core functionality has ALSO been implemented in C/C++ and can be compiled as `mex` files. This will improve performance dramatically (~2 orders of magnitude). 
