@@ -2,6 +2,7 @@
 # SSIMS and SIMNETS Analysis Toolbox
 
 ### Quick-Guide ####
+The purpose of this toolbox is to generate dimensionality-reduced spike train similarity (SSIM) maps and Neuron Similarity (SIMNET) Maps from spike train data, facilitating visualization and further analysis. The toolbox integrates two algorithms to achieve this: 1) spike train distance metric described by Victor and Purpura (1996); 2) t-Distributed Stochastic Neighbor Embedding (tSNE) (Van der Maaten and Hinton 2008). To get started: 
 
 1. Download the tool box from Github. 
 
@@ -14,12 +15,6 @@
 4. For guidance on using SSIMS (the dimensionality-reduced Ensemble Activity Spiketrain Simliarty Maps: see **demo/SSIMS_democenter_out.m*
 
 5. For more details on both these methods, see publications [2] and [3]. 
-
-
-
-#### OVERVIEW: ####
-
-The purpose of this toolbox is to generate dimensionality-reduced spike train similarity (SSIM) maps and Neuron Similarity (SIMNET) Maps from spike train data, facilitating visualization and further analysis. The toolbox integrates two algorithms to achieve this: 1) spike train distance metric described by Victor and Purpura (1996); 2) t-Distributed Stochastic Neighbor Embedding (tSNE) (Van der Maaten and Hinton 2008). 
 
 
 #### INSTALLATION: ####
@@ -60,12 +55,12 @@ please cite the DOI for the SIMNETS paper and the DOI for the Software Repositor
 
 References
 ----------
-[1] SSIMS and SIMNETS Neural Analysis Toolbox software DOI
-[2] Jacqueline Hynes, David Brandman,  Jonas Zimmerman, John Donoghue, Carlos Vargas-Irwin (2018). "SIMNETS: a computationally efficient and            scalable framework for identifying networks of functionally similar neurons" . DOI: https://doi.org/10.1101/463364)       
-[3] Vargas-Irwin, C. E., Brandman, D. M., Zimmermann, J. B., Donoghue, J. P., & Black, M. J. (2015).  "Spike Train SIMilarity Space (SSIMS): A Framework for Single Neuron and Ensemble Data Analysis (2014)."
-[4] Victor, J D and K P Purpura (1996). “Nature and precision of temporal coding in visual cortex: a metric-space analysis”. In: Journal of Neurophysiology 76.2, pp. 1310–26.
-[5] .J.P. van der Maaten and G.E. Hinton. Visualizing High-Dimensional Data Using t-SNE. Journal of Machine Learning Research 9(Nov):2579-2605, 2008.
-Van der Maaten, Laurens J P and Geoffrey E Hinton (Nov. 2008). “Visualizing High-Dimensional Data Using t-SNE”. In: Journal of Machine Learning Research 9, pp. 2579–2605.
+[1] SSIMS and SIMNETS Neural Analysis Toolbox software DOI (to be added)
+[2] Jacqueline Hynes, David Brandman,  Jonas Zimmerman, John Donoghue, Carlos Vargas-Irwin (2018). **"SIMNETS: a computationally efficient and scalable framework for identifying networks of functionally similar neurons"** . DOI: https://doi.org/10.1101/463364)       
+[3] Vargas-Irwin, C. E., Brandman, D. M., Zimmermann, J. B., Donoghue, J. P., & Black, M. J. (2015).  **Spike Train SIMilarity Space (SSIMS): A Framework for Single Neuron and Ensemble Data Analysis**
+[4] Victor, J D and K P Purpura (1996). **Nature and precision of temporal coding in visual cortex: a metric-space analysis”. In: Journal of Neurophysiology** 76.2, pp. 1310–26.
+[5] .J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE.** Journal of Machine Learning Research 9(Nov):2579-2605, 2008.
+Van der Maaten, Laurens J P and Geoffrey E Hinton (Nov. 2008). **Visualizing High-Dimensional Data Using t-SNE**. In: Journal of Machine Learning Research 9, pp. 2579–2605.
 
 
 ## QUESTIONS: 
