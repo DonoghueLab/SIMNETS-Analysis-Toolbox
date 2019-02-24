@@ -39,7 +39,8 @@ please cite the DOI for the SIMNETS paper and the DOI for the Software Repositor
 #### Version history ####
 ---------------
 
-*   4.0.0  22 Feb 2019
+*   4.0.0  22 Feb 2019 . @JHynes
+  Added the SIMNETS neural analysis tool and updated build instructions. 
 *   3.0.10: 3 November 2016
   Add build instructions for macOS 12 and MATLAB 2016b
 *   3.0.9:  15 September 2016
