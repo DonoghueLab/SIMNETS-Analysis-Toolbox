@@ -10,9 +10,9 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
 
 3. **Optional Installation** of complied version. For significantly(!) increased performance see 'install.md'. 
 
-3. See **SIMNETS_Live_tutorial.mlx'**: for detailed guidance on how to use SIMNETS (dim-reduced Neuron Similarity Map) and all of its sub-functions with two different demo datasets.   
+3. Open **SIMNETS_Live_tutorial.mlx'** in Matlab: for detailed guidance on how to use SIMNETS (dim-reduced Neuron Similarity Map) and all of its sub-functions with two different demo datasets.   
 
-4. See **SSIMS_democenter_out.m:** for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
+4. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
 5. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab Github Repository](https://donoghuelab.github.io/SIMNETS/) 
 
