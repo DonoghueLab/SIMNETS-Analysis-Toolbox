@@ -10,13 +10,17 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
 
 3. **Optional, but reccommended** Installation of complied Matlab code for significantly(!) increased performance see 'install.md'. 
 
-3. Open **SIMNETS_Live_tutorial.mlx'** in Matlab: for detailed guidance on how to use SIMNETS (dim-reduced Neuron Similarity Map) and all of its sub-functions with two different demo datasets.   
+4. Open **SIMNETS_Live_tutorial.mlx'** in Matlab: for detailed guidance on how to use SIMNETS (dim-reduced Neuron Similarity Map) and all of its sub-functions with two different demo datasets. 
 
-4. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
+<img src="images/SIMNETS AND SSIMS-01.png" alt="Fig 1. SIMNETS" class="inline"/>
 
-5. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab Github Repository](https://donoghuelab.github.io/SSIMS-and-SIMNETS-Analysis-Toolbox/) 
+5. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
-![SSIMNETS-and-SSIMS dimensionality-reduced Similarity Maps](https://github.com/DonoghueLab/SSIMS-and-SIMNETS-Analysis-Toolbox/blob/master/Images/SIMNETS_SSIMS_image-01.png)
+<img src="images/SIMNETS AND SSIMS-02.png" alt="Fig 2. SSIMS" class="inline"/ width="100" height="100">
+
+6. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab Github Repository](https://donoghuelab.github.io/SSIMS-and-SIMNETS-Analysis-Toolbox/) 
+
+
 
 #### INSTALLATION OF C/C++ OPTIMIZED MATLAB VERSION OF TOOLBOX (optional): ####
 The toolbox is completely implemented in MATLAB. To get started, just add the sub-folder `for_MATLAB` to your MATLAB path. However, certain basic MATLAB functions are rather slow. Therefore, core functionality has ALSO been implemented in C/C++ and can be compiled as `mex` files. This will improve performance dramatically (~2 orders of magnitude). 
@@ -33,7 +37,7 @@ please cite the DOI for the SIMNETS paper and the DOI for the Software Repositor
 
 
 #### Version history ####
----------------
+------------------------
 
 *   4.0.0  22 Feb 2019 . @JHynes
   Added the SIMNETS neural analysis tool and updated build instructions. 
