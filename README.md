@@ -28,9 +28,9 @@ The toolbox is completely implemented in MATLAB. To get started, just add the su
 #### CITATION OF WORK: ####
 please cite the DOI for the SIMNETS paper and the DOI for the Software Repository (doi: xxxx) when using this software and/or this analysis framework for analyzing your own data. 
 
-[1] SSIMS and SIMNETS toolbox: DOI: https://doi.org/  
+[1] SSIMS and SIMNETS toolbox: DOI: (to be updated)  
 
-[2] Jacqueline Hynes, David Brandman,  Jonas Zimmerman, John Donoghue, Carlos Vargas-Irwin (2018). "SIMNETS: a computationally efficient and scalable framework for identifying networks of functionally similar neurons" . DOI: https://doi.org/10.1101/463364) 
+[2] bioRxiv Pre-print: Jacqueline Hynes, David Brandman,  Jonas Zimmerman, John Donoghue, Carlos Vargas-Irwin (2018). "SIMNETS: a computationally efficient and scalable framework for identifying networks of functionally similar neurons" . DOI: https://doi.org/10.1101/463364) 
 
 [3] Vargas-Irwin, C. E., Brandman, D. M., Zimmermann, J. B., Donoghue, J. P., & Black, M. J. (2015).  "Spike Train SIMilarity Space (SSIMS): A Framework for Single Neuron and Ensemble Data Analysis (2014)."
 
