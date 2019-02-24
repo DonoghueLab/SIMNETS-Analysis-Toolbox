@@ -37,9 +37,8 @@ Please cite the DOI for the SIMNETS pre-print and the DOI for the Software Repos
 This toolbox integrates two algorithms to achieve the dimensionality-reduced Similarity Maps:
 
 [4] Victor, J D and K P Purpura (1996). **Nature and precision of temporal coding in visual cortex: a metric-space analysis”. In: Journal of Neurophysiology** 76.2, pp. 1310–26.
-[5] .J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE.** Journal of Machine Learning Research 9(Nov):2579-2605, 2008.
 
-Van der Maaten, Laurens J P and Geoffrey E Hinton (Nov. 2008). **Visualizing High-Dimensional Data Using t-SNE**. In: Journal of Machine Learning Research 9, pp. 2579–2605.
+[6]Van der Maaten, Laurens J P and Geoffrey E Hinton (Nov. 2008). **Visualizing High-Dimensional Data Using t-SNE**. In: Journal of Machine Learning Research 9, pp. 2579–2605.
 
 #### Version history ####
 ------------------------
