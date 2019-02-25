@@ -7,7 +7,7 @@
 The purpose of this toolbox is to generate dimensionality-reduced **S**pike train **Sim**ilarity (SSIM) and Neuron **Sim**ilarity **Net**work (SIMNET) Maps from spike train data, facilitating visualization and further analysis. 
 
 To get started: 
-1. Download the tool box from Github: [Toolbox Repository](https://github.com/DonoghueLab/SIMNETS) 
+1. Download the tool box from Github: [Toolbox Repository](https://github.com/DonoghueLab/SSIM-and-SIMNETS-Analysis-Toolbox) 
 
 2. Add toolbox to your MATLAB path.
 
@@ -27,7 +27,7 @@ The toolbox is completely implemented in MATLAB. To get started, just add the su
 #### CITATION OF WORK: ####
 Please cite the DOI for the SIMNETS pre-print and the DOI for the Software Repository (doi: 'assignment pending') when using this software and/or this analysis framework for analyzing your own data. 
 
-[1] SSIMS and SIMNETS toolbox: DOI: ( 'assignment pending')  
+[1] SSIM and SIMNETS Analysis Toolbox: DOI: ( 'assignment pending')  
 
 [2] bioRxiv Pre-print: Jacqueline Hynes, David Brandman,  Jonas Zimmerman, John Donoghue, Carlos Vargas-Irwin (2018). **SIMNETS: a computationally efficient and scalable framework for identifying networks of functionally similar neurons** . DOI: https://doi.org/10.1101/463364) 
 
