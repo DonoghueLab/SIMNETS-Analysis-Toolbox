@@ -17,7 +17,7 @@ To get started:
 
 5. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
-6. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab Github Repository](https://donoghuelab.github.io/SSIMS-and-SIMNETS-Analysis-Toolbox/) 
+6. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab - Github Page - Analysis Toolbox](https://donoghuelab.github.io/SSIMS-and-SIMNETS-Analysis-Toolbox/) 
 
 
 
@@ -43,7 +43,7 @@ This toolbox integrates two algorithms to achieve the dimensionality-reduced Sim
 ------------------------
 
 *   4.0.0  22 Feb 2019 . @JBHynes
-  Added the SIMNETS neural analysis toolbox and updated build/install instructions. 
+  Added SIMNETS (NEURON SIMILARITY)TOOLBOX, updated build/install instructions. 
 *   3.0.10: 3 November 2016
   Add build instructions for macOS 12 and MATLAB 2016b
 *   3.0.9:  15 September 2016
