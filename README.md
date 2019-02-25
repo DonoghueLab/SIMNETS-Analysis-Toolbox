@@ -65,5 +65,5 @@ This toolbox integrates two algorithms to achieve the dimensionality-reduced Sim
 ## QUESTIONS: 
 @author Jacqueline Hynes. Copyright (c) Jacqueline Hynes, Brown University. All rights reserved.
 
-Questions? Contact <Carlos Vargas_irwin@brown.edu> or <Jacqueline Hynes@Brown.edu>
+Questions? Contact <Carlos_Vargas_irwin@brown.edu> or <Jacqueline_Hynes@Brown.edu>
 We are happy to help with any trouble shooting and provide guidance on how to best analyze/interpret your own data.
