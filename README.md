@@ -1,13 +1,12 @@
 
-# SSIMS and SIMNETS Analysis Toolbox
+# SSIM and SIMNETS Analysis Toolbox
 
 <p align="center"> <img src="images/SIMILARITY MAPS_schematics-03.png" alt="Fig 1. SIMNETS" class="inline" width="800" height="300"/>  </p>
 
 ### Quick-Guide ####
-The purpose of this toolbox is to generate dimensionality-reduced spike train similarity (SSIM) maps and Neuron Similarity (SIMNET) Maps from spike train data, facilitating visualization and further analysis.  To get started: 
+The purpose of this toolbox is to generate dimensionality-reduced *S*pike train *Sim*ilarity (SSIM) and Neuron *Sim*ilarity *Net*works (SIMNET) Maps from spike train data, facilitating visualization and further analysis. 
 
-
-
+To get started: 
 1. Download the tool box from Github: [Toolbox Repository](https://github.com/DonoghueLab/SIMNETS) 
 
 2. Add toolbox to your MATLAB path.
