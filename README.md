@@ -42,8 +42,8 @@ This toolbox integrates two algorithms to achieve the dimensionality-reduced Sim
 #### Version history ####
 ------------------------
 
-*   4.0.0  22 Feb 2019 . @JBHynes
-  Added SIMNETS (NEURON SIMILARITY)TOOLBOX, updated build/install instructions. 
+*   4.0.0:  22 Feb 2019 . @JBHynes
+  Added SIMNETS (NEURON SIMILARITY)TOOLBOX, updated build/install instructions. Added toolbox to Github. First public release of SIMNETS. 
 *   3.0.10: 3 November 2016
   Add build instructions for macOS 12 and MATLAB 2016b
 *   3.0.9:  15 September 2016
