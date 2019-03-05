@@ -1,29 +1,23 @@
 
-# SSIMS and SIMNETS Analysis Toolbox
+# SSIM and SIMNETS Analysis Toolbox
+
+<p align="center"> <img src="images/SIMILARITY MAPS_schematics-03.png" alt="Fig 1. SIMNETS" class="inline" width="800" height="300"/>  </p>
 
 ### Quick-Guide ####
-The purpose of this toolbox is to generate dimensionality-reduced spike train similarity (SSIM) maps and Neuron Similarity (SIMNET) Maps from spike train data, facilitating visualization and further analysis. The toolbox integrates two algorithms to achieve this: 1) spike train distance metric described by Victor and Purpura (1996); 2) t-Distributed Stochastic Neighbor Embedding (tSNE) (Van der Maaten and Hinton 2008). To get started: 
+The purpose of this toolbox is to generate dimensionality-reduced **S**pike train **Sim**ilarity (SSIM) and Neuron **Sim**ilarity **Net**work (SIMNET) Maps from spike train data, facilitating visualization and further analysis. 
 
-1. Download the tool box from Github: [Toolbox Repository](https://github.com/DonoghueLab/SIMNETS) 
+To get started: 
+1. Download the tool box from Github: [Toolbox Repository](https://github.com/DonoghueLab/SSIM-and-SIMNETS-Analysis-Toolbox) 
 
 2. Add toolbox to your MATLAB path.
 
-3. **Optional, but reccommended** Installation of complied Matlab code for significantly(!) increased performance see 'install.md'. 
+3. **Optional, but recommended** Installation of complied Matlab code for significantly(!) increased performance see 'install.md'. 
 
-
-
-
-
-<p align="center"> <img src="images/SIMNETS_and_SSIMS_img-01.png" alt="Fig 1. SIMNETS" class="inline" width="300" height="300"/>  </p>
 4. Open **SIMNETS_Live_tutorial.mlx'** in Matlab: for detailed guidance on how to use SIMNETS (dim-reduced Neuron Similarity Map) and all of its sub-functions with two different demo datasets. 
 
-
-
-<p align="center"> <img src="images/SIMNETS_and_SSIMS_img-02.png" alt="Fig 2. SSIMS" class="inline" width="300" height="290"/> </p>
 5. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
-
-6. For more details on both methods, see publications [2] and [3] or our webpage: [Donoghue Lab Github Repository](https://donoghuelab.github.io/SSIMS-and-SIMNETS-Analysis-Toolbox/) 
+6. For more details on both methods, see pre-print [2], publication [3], or our webpage: [Donoghue Lab - Github Page - Analysis Toolbox](https://donoghuelab.github.io/SSIM-and-SIMNETS-Analysis-Toolbox/) 
 
 
 
@@ -31,21 +25,25 @@ The purpose of this toolbox is to generate dimensionality-reduced spike train si
 The toolbox is completely implemented in MATLAB. To get started, just add the sub-folder `for_MATLAB` to your MATLAB path. However, certain basic MATLAB functions are rather slow. Therefore, core functionality has ALSO been implemented in C/C++ and can be compiled as `mex` files. This will improve performance dramatically (~2 orders of magnitude). 
 
 #### CITATION OF WORK: ####
-please cite the DOI for the SIMNETS paper and the DOI for the Software Repository (doi: xxxx) when using this software and/or this analysis framework for analyzing your own data. 
+Please cite the DOI for the SIMNETS pre-print and the DOI for the Software Repository (doi: 'assignment pending') when using this software and/or this analysis framework for analyzing your own data. 
 
-[1] SSIMS and SIMNETS toolbox: DOI: https://doi.org/  
+[1] SSIM and SIMNETS Analysis Toolbox: DOI: ( 'assignment pending')  
 
-[2] Jacqueline Hynes, David Brandman,  Jonas Zimmerman, John Donoghue, Carlos Vargas-Irwin (2018). "SIMNETS: a computationally efficient and scalable framework for identifying networks of functionally similar neurons" . DOI: https://doi.org/10.1101/463364) 
+[2] bioRxiv Pre-print: Jacqueline Hynes, David Brandman,  Jonas Zimmerman, John Donoghue, Carlos Vargas-Irwin (2018). **SIMNETS: a computationally efficient and scalable framework for identifying networks of functionally similar neurons** . DOI: https://doi.org/10.1101/463364) 
 
-[3] Vargas-Irwin, C. E., Brandman, D. M., Zimmermann, J. B., Donoghue, J. P., & Black, M. J. (2015).  "Spike Train SIMilarity Space (SSIMS): A Framework for Single Neuron and Ensemble Data Analysis (2014)."
+[3] Vargas-Irwin, C. E., Brandman, D. M., Zimmermann, J. B., Donoghue, J. P., & Black, M. J. (2015).  **Spike Train SIMilarity Space (SSIMS): A Framework for Single Neuron and Ensemble Data Analysis (2014).** 
 
+This toolbox integrates two algorithms to achieve the dimensionality-reduced Similarity Maps:
 
+[4] Victor, J D and K P Purpura (1996). **Nature and precision of temporal coding in visual cortex: a metric-space analysis”. In: Journal of Neurophysiology** 76.2, pp. 1310–26.
+
+[6]Van der Maaten, Laurens J P and Geoffrey E Hinton (Nov. 2008). **Visualizing High-Dimensional Data Using t-SNE**. In: Journal of Machine Learning Research 9, pp. 2579–2605.
 
 #### Version history ####
 ------------------------
 
-*   4.0.0  22 Feb 2019 . @JHynes
-  Added the SIMNETS neural analysis tool and updated build instructions. 
+*   4.0.0:  22 Feb 2019 . @JBHynes
+  Added SIMNETS (NEURON SIMILARITY)TOOLBOX, updated build/install instructions. Added toolbox to Github. First public release of SIMNETS. 
 *   3.0.10: 3 November 2016
   Add build instructions for macOS 12 and MATLAB 2016b
 *   3.0.9:  15 September 2016
@@ -63,18 +61,9 @@ please cite the DOI for the SIMNETS paper and the DOI for the Software Repositor
     First public release.
 
 
-References
-----------
-[1] SSIMS and SIMNETS Neural Analysis Toolbox software DOI (to be added)
-[2] Jacqueline Hynes, David Brandman,  Jonas Zimmerman, John Donoghue, Carlos Vargas-Irwin (2018). **"SIMNETS: a computationally efficient and scalable framework for identifying networks of functionally similar neurons"** . [DOI:https://doi.org/10.1101/463364](https://doi.org/10.1101/463364)       
-[3] Vargas-Irwin, C. E., Brandman, D. M., Zimmermann, J. B., Donoghue, J. P., & Black, M. J. (2015).  **Spike Train SIMilarity Space (SSIMS): A Framework for Single Neuron and Ensemble Data Analysis** 
-[4] Victor, J D and K P Purpura (1996). **Nature and precision of temporal coding in visual cortex: a metric-space analysis”. In: Journal of Neurophysiology** 76.2, pp. 1310–26.
-[5] .J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE.** Journal of Machine Learning Research 9(Nov):2579-2605, 2008.
-Van der Maaten, Laurens J P and Geoffrey E Hinton (Nov. 2008). **Visualizing High-Dimensional Data Using t-SNE**. In: Journal of Machine Learning Research 9, pp. 2579–2605.
-
 
 ## QUESTIONS: 
 @author Jacqueline Hynes. Copyright (c) Jacqueline Hynes, Brown University. All rights reserved.
 
-Questions? Contact <Carlos Vargas_irwin@brown.edu> or <Jacqueline Hynes@Brown.edu>
+Questions? Contact <Carlos_Vargas_irwin@brown.edu> or <Jacqueline_Hynes@Brown.edu>
 We are happy to help with any trouble shooting and provide guidance on how to best analyze/interpret your own data.
