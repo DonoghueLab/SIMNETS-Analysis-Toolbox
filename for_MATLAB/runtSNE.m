@@ -22,7 +22,7 @@ if nargin < 3
 end
 
 initial_dims =  size(baseData,1);
-disp('Preprocessing data using PCA...');
+%disp('Preprocessing data using PCA...');
 if size(baseData, 2) < size(baseData, 1)
     C = baseData'' * baseData;
 else
@@ -43,7 +43,7 @@ dmatPCP = baseData * PCP_transform; % no normalization!
 
 [SSIMS, kld] = tsne_PCA(dmatPCP, [], outDimensions, [], perplexity);
 
-display(['CALCULATING TSNE TRANSFORM ...'])
+%display(['CALCULATING TSNE TRANSFORM ...'])
 tSNE_transform = SSIMS' * dmatPCP * pinv(dmatPCP' * dmatPCP);
 tSNE_transform = PCP_transform * tSNE_transform';
 
