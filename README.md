@@ -25,7 +25,7 @@ To get started:
 The toolbox is completely implemented in MATLAB. To get started, just add the sub-folder `for_MATLAB` to your MATLAB path. However, certain basic MATLAB functions are rather slow. Therefore, core functionality has ALSO been implemented in C/C++ and can be compiled as `mex` files. This will improve performance dramatically (~2 orders of magnitude). 
 
 #### CITATION OF WORK: ####
-Please cite the DOI for the SIMNETS pre-print and the DOI for the Software Repository (doi: 'assignment pending') when using this software and/or this analysis framework for analyzing your own data. 
+Please cite the DOI for the SIMNETS pre-print and the DOI for the Software Repository (doi: 'assignment pending') when using this software and/or this analysis framework for analyzing your own data. Please contact the authors listed below if you are considering using the demo datasets included in this repository for purposes other than testing the code. 
 
 [1] SSIM and SIMNETS Analysis Toolbox: DOI: ( 'assignment pending')  
 
