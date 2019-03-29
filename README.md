@@ -1,5 +1,5 @@
 
-# SSIM and SIMNETS Analysis Toolbox
+# SIMNETS-and-Maps-Analysis-Toolbox
 
 <p align="center"> <img src="images/SIMILARITY MAPS_schematics-03.png" alt="Fig 1. SIMNETS" class="inline" width="800" height="300"/>  </p>
 
