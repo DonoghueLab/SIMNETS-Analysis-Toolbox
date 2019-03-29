@@ -17,8 +17,7 @@ To get started:
 
 5. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
-6. For more details on both methods, see pre-print [2], publication [3], or our webpage: [Donoghue Lab - Github Page - Analysis Toolbox](https://donoghuelab.github.io/SSIM-and-SIMNETS-Analysis-Toolbox/) 
-
+6. For more details on both methods, see pre-print [2], publication [3], or our webpage: [Donoghue Lab - Github Page - Analysis Toolbox](https://donoghuelab.github.io/SIMNETS-and-Maps-Analysis-Toolbox/) 
 
 
 #### INSTALLATION OF C/C++ OPTIMIZED MATLAB VERSION OF TOOLBOX (optional): ####
@@ -43,22 +42,7 @@ This toolbox integrates two algorithms to achieve the dimensionality-reduced Sim
 ------------------------
 
 *   4.0.0:  22 Feb 2019 . @JBHynes
-  Added SIMNETS (NEURON SIMILARITY)TOOLBOX, updated build/install instructions. Added toolbox to Github. First public release of SIMNETS. 
-*   3.0.10: 3 November 2016
-  Add build instructions for macOS 12 and MATLAB 2016b
-*   3.0.9:  15 September 2016
-  Major overhaul of the toolbox structure.
-  Removed legacy functions, improved function signatures
-  Add example with real data
-  Improved installation instructions
-  This is a pre-release to test functionality before wider distribution
-*   3.0:    11 May 2016
-	Rewrite of most of the toolbox. We now use armadillo for linear algebra functions.
-	There are also efficient functions to extract spike trains in windows, based
-	on custom C++ classes efficiently handling spike trains.
-	Build instructions for Windows greatly improved
-*   2.2:    17 Novemeber 2014
-    First public release.
+  Added SIMNETS (NEURON SIMILARITY)TOOLBOX, updated build/install instructions. Added toolbox to Github. First public release of SIMNETS. First public release.
 
 
 
