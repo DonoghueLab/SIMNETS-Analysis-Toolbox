@@ -82,4 +82,5 @@ for n1 = 1:nn
 end 
 
  ncmat = tril(ncmat)+tril(ncmat,-1)';  % copy lower matrix half to upper  
-  
+  ncmat = 1 - reshape((ncmat(:)-min(ncmat(:)))/(max(ncmat(:))-min(ncmat(:))), size(ncmat,1),size(ncmat,1)); 
+
