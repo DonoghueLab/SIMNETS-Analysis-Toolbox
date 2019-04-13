@@ -17,7 +17,7 @@ To get started:
 
 5. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
 
-6. For more details on both methods, see pre-print [2], publication [3], or our webpage: [Donoghue Lab - Github Page - Analysis Toolbox](https://donoghuelab.github.io/SIMNETS-and-Maps-Analysis-Toolbox/) 
+6. For more details on both methods, see pre-print [2], publication [3], or our webpage: [Donoghue Lab - Github Page - Analysis Toolbox](https://donoghuelab.github.io/SIMNETS-Analysis-Toolbox/) 
 
 
 #### INSTALLATION OF C/C++ OPTIMIZED MATLAB VERSION OF TOOLBOX (optional): ####
