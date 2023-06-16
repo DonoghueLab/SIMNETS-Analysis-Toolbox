@@ -1,7 +1,7 @@
 
 # SIMNETS-and-Maps-Analysis-Toolbox
 
-<p align="center"> <img src="images/SIMILARITY MAPS_schematics-03.png" alt="Fig 1. SIMNETS" class="inline" width="800" height="300"/>  </p>
+<p align="center"> <img src="images/SIMILARITY MAPS_schematics-03.png" alt="Fig 1. SIMNETS" class="inline" width="700" height="300"/>  </p>
 
 ### Quick-Guide ####
 The purpose of this toolbox is to generate dimensionality-reduced **S**pike train **Sim**ilarity (SSIM) and Neuron **Sim**ilarity **Net**work (SIMNET) Maps from spike train data, facilitating visualization and further analysis. 
